@@ -1,0 +1,37 @@
+/* General page background and text color */
+body {
+    background-color: #f3f6fa;
+    color: #202633;
+}
+
+/* Style the div that contains the band section */
+#band {
+    background-color: #edf7f5;
+    border-radius: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Style the band heading */
+#band h2 {
+    color: #0f766e;
+    font-weight: 700;
+}
+
+/* Style the paragraph with the band's description */
+#band p.w3-justify {
+    font-size: 17px;
+    line-height: 1.8;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #0f766e;
+    border-radius: 8px;
+}
+
+/* Style the band member images */
+#band img {
+    border-radius: 18px;
+    border: 3px solid #0f766e;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
