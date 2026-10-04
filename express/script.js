@@ -38,3 +38,12 @@ function updateTicketTotal() {
 
 ticketQuantity.addEventListener('input', updateTicketTotal);
 updateTicketTotal();
+
+// Task 7: handle the contact form locally instead of requesting a missing PHP file.
+const contactForm = document.getElementById('contactForm');
+
+contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    document.getElementById('contactStatus').textContent =
+        'Thank you! This is a demo form. No message was sent.';
+});
