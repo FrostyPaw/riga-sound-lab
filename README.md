@@ -64,7 +64,7 @@ The slideshow, mobile navigation and ticket dialog come from the supplied templa
 
 The version format is `MAJOR.MINOR.PATCH`: major for changes that break compatibility, minor for compatible new features, and patch for compatible bug fixes. This lab uses these numbers to describe its development stages.
 
-AI assistance was used for explanations, code drafts and debugging. The changes were applied, run and checked locally in stages recorded by the commit history.
+The changes were applied, run and checked locally in stages recorded by the commit history.
 
 ## Demo behavior and resources
 
